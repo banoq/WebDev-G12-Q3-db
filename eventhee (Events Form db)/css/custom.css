@@ -1,0 +1,37 @@
+:root{
+    --primary-color: rgb(14, 13, 13);
+    --primary-color-highlight: #dbdbdb;
+    
+  }
+  body{
+    background-color: var(--primary-color-highlight);
+    background-image: url("../images/wallpaperforu-2048x1152.jpg");
+    background-size: cover;
+    
+  }
+
+  .overlay{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    background-color: var(--primary-color);
+    opacity: 0.5;
+    z-index: 0;
+  }
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.box{
+    position: absolute;
+    width:80%;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
