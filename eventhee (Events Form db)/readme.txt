@@ -1,27 +1,28 @@
-functioning code (still better than not functioning)
 
-functions: Can add/ submit data through the form, has form validation, can edit and change values of previous records both in sql database that is also displayed in index.php, It can delete too.. (red button)
 
-replace this default values with your own and make sure it matches with all of it.
+---
+This code can add and submit data through a form, includes form validation, and allows for editing and updating values of previous records in both the SQL database and the displayed data in `index.php`. It also includes a delete function (red button).
 
-database name: clubmanagementsys
+Please replace the default values with your own and ensure consistency across the code.
 
-table
+**Database Name:** `clubmanagementsys`
 
-events:
+**Table:** `events`
 
--Activity_ID
--Club_ID
--Activity_Name
--Date
--Venue
--Persons_Involved
+- `Activity_ID`
+- `Club_ID`
+- `Activity_Name`
+- `Date`
+- `Venue`
+- `Persons_Involved`
 
 ------
-Actions (extra space for EDIT and DELETE buttons)
 
-code by Ayzak gonda or whatever
+Actions:
+Space is provided for EDIT and DELETE buttons.
 
-https://github.com/banoq?tab=repositories
+Code by Ayzak Gonda or another appropriate author.
 
+[GitHub Repositories](https://github.com/banoq?tab=repositories)
 
+---
